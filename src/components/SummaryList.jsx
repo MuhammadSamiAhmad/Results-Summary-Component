@@ -9,7 +9,7 @@ const SummaryList = () => {
         {data.map((item, index) => (
           <SummaryElement key={index} item={item} />
         ))}
-        <button className="rounded-3xl bg-[#383F4F] text-white font-bold p-3 mt-3 hover:bg-violet-blue transition-colors mb-5">
+        <button className="rounded-3xl bg-[#383F4F] text-white font-bold py-4 mt-3 hover:bg-violet-blue transition-colors mb-5">
           Continue
         </button>
       </div>
