@@ -4,7 +4,7 @@ const Display = () => {
       className="flex flex-col items-center justify-center size-full
     bg-gradient-to-b from-cobalt-blue to-violet-blue text-center mobile:rounded-3xl rounded-b-3xl"
     >
-      <h1 className="mt-8 mb-8 text-gray-300 font-medium text-2xl">
+      <h1 className="mt-8 mb-8 text-gray-400 font-medium text-2xl">
         Your Result
       </h1>
       <div
@@ -12,12 +12,12 @@ const Display = () => {
         className="relative mb-10 size-52 rounded-full bg-gradient-to-b from-violet-blue to-cobalt-blue flex flex-col"
       >
         <div id="score" className="absolute top-[28%] left-[30%]">
-          <h1 className="text-white font-bold text-7xl">76</h1>
+          <h2 className="text-white font-bold text-7xl">76</h2>
           <p className="text-gray-400 font-medium">of 100</p>
         </div>
       </div>
       <div id="note" className="mb-16">
-        <h1 className="font-bold text-gray-200 text-3xl">Great</h1>
+        <h3 className="font-medium text-gray-200 text-3xl">Great</h3>
         <p className="text-paragraph mt-5 text-gray-400 font-medium">
           You scored higher than 65% of <br /> the people who have taken <br />{" "}
           these tests.
